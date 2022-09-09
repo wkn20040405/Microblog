@@ -1,0 +1,19 @@
+Around web features:
+1.login - persist login
+2.register
+3.logout
+4.search by category
+5.display post
+6.create a new post
+
+Router:
+    base -> redirect /login
+         -> redirect /home
+
+    base/login -> Login
+    base/register -> Register
+    base/home -> Home
+
+Layout -> common component
+    - top + bottom
+    - Header
